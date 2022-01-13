@@ -1,4 +1,4 @@
-import AWS = require('aws-sdk');
+/*import AWS = require('aws-sdk');
 import {config} from './config/config';
 
 
@@ -32,4 +32,4 @@ export function getPutSignedUrl( key: string ): string {
     Key: key,
     Expires: signedUrlExpireSeconds,
   });
-}
+}*/
