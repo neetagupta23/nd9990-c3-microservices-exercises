@@ -6,8 +6,8 @@ data:
   AWS_REGION: us-east-2
   JWT_SECRET: hello
   POSTGRES_DB: postgres
-  POSTGRES_HOST: postgres.c772n0goeqgt.us-east-2.rds.amazonaws.com
-  URL: http://localhost:8100  
+  POSTGRES_HOST: udacitypostgres.czy58kjxjmyz.us-east-2.rds.amazonaws.com
+  URL: http://a72a7913d1ebf4c14b396f4b2cfcd1aa-877869802.us-east-2.elb.amazonaws.com:8100  
 metadata:
   name: env-config
   

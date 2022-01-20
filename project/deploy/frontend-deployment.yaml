@@ -16,7 +16,7 @@ spec:
         api: external
     spec:
       containers:
-        - image: neetagupta236/udagram-frontend
+        - image: neetagupta236/udagram-frontend:v4
           name: frontend
           imagePullPolicy: Always
           resources:
@@ -27,5 +27,5 @@ spec:
               memory: "2048Mi"
               cpu: "1000m"
           ports:
-          - containerPort: 8080
+          - containerPort: 80
       restartPolicy: Always     
